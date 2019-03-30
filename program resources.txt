@@ -1,0 +1,99 @@
+#-----------------------------------Base program resources-----------------------------------------------
+
+
+
+#--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+#-----------------------------------Program information-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#-----------------------------Program resources----------------------------------------------------------------
+
+
+def assign(x,y,val):
+    
+        x[y] == val
+       
+
+
+#used to access and assign specific items found in nested list. to indicate access, pass the string "-o-" in the arguement val. if val is equal to anything other than "-o-"
+# the value occupying the position refered to by x and y will be assigned to val.
+
+
+
+x = raw_input( " which function would you like to test? " )
+
+
+
+
+
+#Allows for dubugging of individual program sections --
+#Syntax:
+# if( x ==  "string" ):
+#    function()
+
+def test():
+    print "welcome to the test section"
+
+
+
+if x == "test":
+   test()
+
+#allows testing of related code before implemented. 
+#-------------------------------------------------------------------------------------------
+
+Program name:
+language: python    
+
+//School edition. 
+ 
+Events-
+
+challenges-
+
+victories-
+
+assistance?
+ 
+
+Ideas
+
+tomorrow's plan. 
+
+
+notes
+Thoughts
