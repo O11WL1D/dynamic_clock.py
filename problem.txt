@@ -1,8 +1,0 @@
-I have an issue, 
-
-the reason why my program isnt displaying a constant stream of slides is because either the rate is 
-too fast for a certian item to be displayied in the right area, resulting  
- or because its too slow and  
-
-I need to automatically optimize display amount via
-checking the time, to find time of each operation. 
