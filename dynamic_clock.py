@@ -1,12 +1,9 @@
-#-----------------------------------Program innformation-----------------------------------------------
-#Program name: dynamic_clock.py
-#last modifyied: 3/24/19
-#
-#
-#
-
-
 #-------------------------program resources--------------------------------------------------------------------
+
+import feature 
+
+x = "main"
+options = input("please enter a desired animation speed( in terms of seconds per frame for this instance of dynamic_clock.py - if unsure enter the number five.") 
 
 
 def access(x,y):
@@ -16,59 +13,6 @@ def access(x,y):
 def assign(x,y,val):
     
         x[y] = val
-       
-
-
-#used to access and assign specific items found in nested list. to indicate access, pass the string "-o-" in the arguement val. if val is equal to anything other than "-o-"
-# the value occupying the position refered to by x and y will be assigned to val.
-
-
-#used to access and assign specific items found in nested list. to indicate access, pass the string "-o-" in the arguement val. if val is equal to anything other than "-o-"
-# the value occupying the position refered to by x and y will be assigned to val.
-#x = raw_input( " which function would you like to test? " )
-x = raw_input("enter the function you would like to test")
-options = input("please enter a desired animation speed( in terms of seconds per frame for this instance of dynamic_clock.py - if unsure enter the number five.")    
-
-
-
-
-#Allows for dubugging of individual program sections --
-#Syntax:
-# if( x ==  "string" ):
-#    function()
-
-
-
-
-
-def nest(func):
-    
-    para_amount = input("how many parameters would you like to test?")
-    values = [None]*para_amount
-    for zero in range (para_amount):
-        print "please enter a value for parameter" + str(zero) 
-        values[zero] = raw_input() 
-        print values[zero] 
-    if para_amount == 1:
-       if(raw_input("would you like input to be looped? - y/n") == "y"):
-          for zero in range (int(raw_input("How many times?"))):
-              func(values[0])
-    if para_amount == 2:
-       if(raw_input("would you like input to be looped? - y/n") == "y"):
-         for zero in range (int(raw_input("How many times?"))):
-             func(values[0], values[1])
-    
-    if para_amount == 3:
-       if(raw_input("would you like input to be looped? - y/n") == "y"):
-         for zero in range (int(raw_input("How many times?"))):
-             func(values[0], values[1],values[2])
-    
-    if para_amount == 4:
-       if(raw_input("would you like input to be looped? - y/n") == "y"):
-         for zero in range (int(raw_input("How many times?"))):
-             func(values[0], values[1],values[2],values[3])
-
-
 
 
 #-------------------------------Animation textures//other resources--------------------------------------------------------------
@@ -181,7 +125,7 @@ animated.append("  ")
 #animated.append("                                                          - -- -") 
 
 
-
+# features for later edition 
 
 #---------------------------fwrite------------------------------------------------
 def write(calculations,top_down_line):    # final output , random movement calculations , line number   -- here top_down_line refers to pos as it would apppear in a list, and that is starting with a zero.
@@ -332,7 +276,7 @@ def get_time(yyy):
 
 
 if x == "main":
-    nest(get_time(options))
+    get_time(options)
 
 #------------------------------------------------------------    works -  
 
@@ -360,8 +304,3 @@ def command(x):
 #converts text into command and runs it via python modules
 # however, input must be in list form
 #-------------------------------------------------------------    works -
-if x == "meme":
-      up = ["print 'eat ass'", "print 'say my name'"]
-      command(up)
-      a.a() 
-      
