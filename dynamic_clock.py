@@ -1,6 +1,7 @@
 #-------------------------program resources--------------------------------------------------------------------
 
-import feature 
+import fea
+import a
 
 x = "main"
 options = input("please enter a desired animation speed( in terms of seconds per frame for this instance of dynamic_clock.py - if unsure enter the number five.") 
@@ -14,7 +15,8 @@ def assign(x,y,val):
     
         x[y] = val
 
-
+fea.command("print 'testing'")
+a.a()
 #-------------------------------Animation textures//other resources--------------------------------------------------------------
 import datetime
 import random
