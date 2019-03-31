@@ -15,8 +15,7 @@ def assign(x,y,val):
     
         x[y] = val
 
-fea.command("print 'testing'")
-a.a()
+
 #-------------------------------Animation textures//other resources--------------------------------------------------------------
 import datetime
 import random
