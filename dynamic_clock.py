@@ -1,7 +1,5 @@
 #-------------------------program resources--------------------------------------------------------------------
 
-import fea
-import a
 
 x = "main"
 options = input("please enter a desired animation speed( in terms of seconds per frame for this instance of dynamic_clock.py - if unsure enter the number five.") 
