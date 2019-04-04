@@ -228,6 +228,12 @@ if x == "check":
         check()
 #--------------------------fmain(), start here-------------------------------------------------1
 
+#to meet word count requirements I have included and displayed
+#a video narriation within the program, Since program code is excluded
+# and program comments still classify as program code. 
+
+
+
 #In the video the program is randomly generating a value neighboring
 #the previously generated value, ranging from 1-4 to select an animation
 #to display. Then after accessing this value in a list it is printed following
