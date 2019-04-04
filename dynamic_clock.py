@@ -189,37 +189,43 @@ if x == "write":
 
 
 #----------------------Check()-----------------------------------------------------2
-#for length of animated[item], to insure flexibility      
+def child_1(multi):
+      list = [0]
+      if multi == 1:
+            multi += 1
+            list[0] = multi
+      else:
+             multi -= 1
+             list[0] = multi
+      
+
+      return list 
+
+def child_2(multi):
+      list = [0]
+      if multi == 4:
+           multi -= 1
+           list[0] = multi
+      else:
+          multi += 1    
+          list[0] = multi
+       
+
+      return list
+      
 def check(mult):
-     list = [0]
      
-     #here, each line is written. This function is called in a loop to write every line value.
-    
-     #> trees, filters through the four possible animations of the trees depending on a randomized value. 
      ran = random.randrange(0, 100)
      
      if (ran % 2 == 0) :
-         if mult == 1:
-            mult += 1
-            list[0] = mult
-         else:
-             mult -= 1
-             list[0] = mult
+         bud = child_1(mult)  
      else:
-        if mult == 4:
-           mult -= 1
-           list[0] = mult
-        else:
-          mult += 1    
-          list[0] = mult                 
+        bud  = child_2(mult)             
 
-     
- 
-     return list
+     return bud
      
 if x == "check":
         check()
-
 #--------------------------fmain(), start here-------------------------------------------------1
 
 def get_time(yyy):
