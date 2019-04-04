@@ -228,6 +228,16 @@ if x == "check":
         check()
 #--------------------------fmain(), start here-------------------------------------------------1
 
+#In the video the program is randomly generating a value neighboring
+#the previously generated value, ranging from 1-4 to select an animation
+#to display. Then after accessing this value in a list it is printed following
+#the conclusion of a user-set delay, seen with the initial prompt 
+# please enter a desired animation speed( in terms of seconds per frame
+#for this instance of dynamic_clock.py - if unsure enter the number five.
+
+
+
+
 def get_time(yyy):
      
      frame = [" "]*27  # defines the screen
