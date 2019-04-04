@@ -1,0 +1,5 @@
+It would be nice to figure out how to animate things without constant screen clearing- 
+
+
+-Need to clean up code so that its a little more accessable, perhaps make an animation engine
+ 

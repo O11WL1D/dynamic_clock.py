@@ -226,7 +226,7 @@ def check(mult):
      
 if x == "check":
         check()
-#--------------------------fmain(), start here-------------------------------------------------1
+#--------------------------NARRATION -------------------------------------------------1
 
 #to meet word count requirements I have included and displayed
 #a video narriation within the program, Since program code is excluded
