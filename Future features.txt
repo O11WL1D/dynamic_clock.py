@@ -1,5 +1,5 @@
-It would be nice to figure out how to animate things without constant screen clearing- 
+It would be nice to figure out how to animate things without constant screen clearing-    -- done, os function used
 
 
--Need to clean up code so that its a little more accessable, perhaps make an animation engine
+-Need to clean up code so that its a little more accessable, perhaps make an animation engine 
  
