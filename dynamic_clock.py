@@ -18,7 +18,8 @@ def assign(x,y,val):
 import datetime
 import random
 import random
-import time 
+import time
+import os
 # syntax ==  time = datetime.datetime.now()
 # prints time in YYYY-MM-DD HH:MM:SS:MD
 # additional syntax = print(str(time))
@@ -273,8 +274,7 @@ def get_time(yyy):
           
               
 
-          for zero in range (len(clear)):   #clear the screen
-               print clear[zero]           
+          system.os(cls)      
  
           
           for zero in range (26):    #print
@@ -306,22 +306,5 @@ if x == "main":
 import a
 
 
-def command(x):
-    #if y = erase : erase command file- 
-    open("a.py", "w").close()
-    #erases file for new command.
-    object = open("a.py", "w")
-    object.write("def a():")
-    if type(x) == list:
-       for zero in range (len(x)):
-         object.write( '\n' + "    " + x[zero])
-    else:
-         object.write( '\n' + "    " + x)
-    object.close()
-    reload(a)
-    #syntax
-    #import command
-    #command.order()
-#converts text into command and runs it via python modules
-# however, input must be in list form
+
 #-------------------------------------------------------------    works -
