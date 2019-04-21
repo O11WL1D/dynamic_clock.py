@@ -274,7 +274,7 @@ def get_time(yyy):
           
               
 
-          system.os(cls)      
+          os.system("cls")      
  
           
           for zero in range (26):    #print
